@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #f3e5d8;
+    padding: 24px;
+    color: #5f574e;
+}
+
+.recipe-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    color: #2c1608;
+    margin-bottom: 12px;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+.prep-time {
+    background-color: #fff5fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.prep-time strong {
+    color: #7b284f;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.prep-time ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.prep-time li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+    color: #7b284f;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    font-size: 15px;
+}
+
+ol {
+    margin-left: 20px;
+    margin-bottom: 24px;
+    font-size: 15px;
+}
+
+ol li {
+    margin-bottom: 16px;
+}
+
+ol li strong {
+    color: #854632;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 24px 0;
+}
+
+.nutrition {
+    background-color: #fff;
+}
+
+.nutrition p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition th,
+.nutrition td {
+    padding: 8px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.nutrition td strong {
+    font-weight: 700;
+    color: #2c1608;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    body {
+        padding: 16px;
+    }
+
+    .recipe-card {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .description,
+    ul,
+    ol,
+    .nutrition table,
+    .prep-time li {
+        font-size: 14px;
+    }
+}
